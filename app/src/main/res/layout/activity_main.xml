@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boletín UT3 - PMDM"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <Button android:id="@+id/btnEj1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 1: Validar URL"/>
+    <Button android:id="@+id/btnEj2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 2: Navegación 10s"/>
+    <Button android:id="@+id/btnEj3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 3: LinearLayout Anidados"/>
+    <Button android:id="@+id/btnEj4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 4: 9 FrameLayouts"/>
+    <Button android:id="@+id/btnEj5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 5: Calculadora"/>
+    <Button android:id="@+id/btnEj6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 6: Perfil ConstraintLayout"/>
+</LinearLayout>

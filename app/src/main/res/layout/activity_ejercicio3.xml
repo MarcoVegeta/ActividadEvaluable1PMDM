@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button android:id="@+id/btnPant1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pantalla 1 (3 franjas verticales)"/>
+    <Button android:id="@+id/btnPant2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pantalla 2 (Cuadrícula 2x3)" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btnPant3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pantalla 3 (Mixto vertical/horizontal)" android:layout_marginTop="12dp"/>
+</LinearLayout>
